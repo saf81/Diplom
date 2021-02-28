@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: #FEFCFE;
+    color: #2B3541;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 44px;
+    padding-bottom: 65px;
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding-right: 240px;
+    color: #2B3541;
+}
+.nav-item {
+    padding-right: 54px;
+}
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #2B3541;
+}
+.nav-link {
+    text-decoration: none;
+    transition: 0.2s color ease;
+}
+.nav-link:hover {
+    color: #181F27;
+}
+.social {
+    display: flex;
+    padding-left: 30px;
+}
