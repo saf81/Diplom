@@ -14,26 +14,108 @@ header {
     display: flex;
     list-style-type: none;
     padding-right: 240px;
-    color: #2B3541;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
 }
 .nav-item {
     padding-right: 54px;
 }
 .wrapper {
     max-width: 1140px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin: 50px;
+    padding-left: 0;
+    padding-right: 0;
     color: #2B3541;
 }
 .nav-link {
+    color: #2B3541;
     text-decoration: none;
     transition: 0.2s color ease;
 }
 .nav-link:hover {
     color: #181F27;
+    transition: 0.2s border-bottom ease;
+    border-bottom: 1px solid;
+}
+.logo {
+    position: relative;
 }
 .social {
     display: flex;
     padding-left: 30px;
+    position: relative;
+    left: 185px;
+}
+.main-title {
+    bottom: 10px;
+}
+.Photo .girl {
+    position: absolute;
+    width: 996px;
+    height: 852px;
+    left: 564px;
+    top: 140px
+}
+.arrow {
+    padding-top: 50px;
+}
+.title-h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 121px;
+    padding-left: 185px;
+}
+.title-h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 125%;
+    padding-top: 0px;
+    padding-left: 185px;
+}
+.name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    padding-left: 268px;
+    margin-top: -17px;
+}
+button {
+    background-color: #FBF138;
+    border: none;
+    color: #2B3541;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 268px;
+}
+.arrow {
+    width: 52px;
+    height: 55px;
+    left: 273px;
+    top: 157px;
+    position: relative;
+}
+.section-about {
+    padding-top: 200px;
+    padding-bottom: 160px;
+}
+.about-item p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+}
+.Vebinar {
+    display: flex;
+}
+.Photo-1 {
+    position: relative;
+    width: 367px;
+    height: 600px;
 }
