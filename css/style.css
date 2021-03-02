@@ -31,11 +31,11 @@ header {
 .nav-link {
     color: #2B3541;
     text-decoration: none;
-    transition: 0.2s color ease;
+    border-bottom: 1px solid transparent;
 }
 .nav-link:hover {
     color: #181F27;
-    transition: 0.2s border-bottom ease;
+    transition: 0.3s border-bottom ease;
     border-bottom: 1px solid;
 }
 .logo {
@@ -86,14 +86,19 @@ header {
 button {
     background-color: #FBF138;
     border: none;
-    color: #2B3541;
     padding: 20px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    text-transform: uppercase;
     font-size: 16px;
-    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 150%;
     margin-left: 268px;
+    transition: 0.3s ease;
+}
+button:hover {
+    background: #2B3541;
+    color: #FBF138;
+    cursor: pointer;
 }
 .arrow {
     width: 52px;
@@ -110,12 +115,59 @@ button {
     font-weight: 700;
     font-size: 40px;
     line-height: 125%;
+    padding-left: 180px;
 }
 .Vebinar {
     display: flex;
+    padding-left: 164px;
 }
-.Photo-1 {
+.Photo-1,
+.Photo-2, 
+.Photo-3 {
     position: relative;
     width: 367px;
     height: 600px;
+    padding: 20px
+}
+.text-1 {
+    top: -610px;
+    right: -210px;
+}
+.text-2 {
+    top: -652px;
+    right: -620px;
+}
+.text-3 {
+    top: -696px;
+    right: -1030px;
+}
+.text-1,
+.text-2,
+.text-3 {
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    opacity: 0.6;
+}
+.text-4,
+.text-5,
+.text-6 {
+    position: relative;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 125%;
+}
+.text-4 {
+    top: -699px;
+    right: -209px;
+}
+.box-item,
+.box-item-1,
+.box-item-2 {
+    position: relative;
+    width: 122px;
+    height: 47px;
+    background: #FBF138;
+    text-align: center;
 }
