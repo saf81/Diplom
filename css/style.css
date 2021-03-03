@@ -26,7 +26,6 @@ header {
     margin: 50px;
     padding-left: 0;
     padding-right: 0;
-    color: #2B3541;
 }
 .nav-link {
     color: #2B3541;
@@ -109,7 +108,6 @@ button:hover {
 }
 .section-about {
     padding-top: 200px;
-    padding-bottom: 160px;
 }
 .about-item p {
     font-weight: 700;
@@ -129,18 +127,6 @@ button:hover {
     height: 600px;
     padding: 20px
 }
-.text-1 {
-    top: -610px;
-    right: -210px;
-}
-.text-2 {
-    top: -652px;
-    right: -620px;
-}
-.text-3 {
-    top: -696px;
-    right: -1030px;
-}
 .text-1,
 .text-2,
 .text-3 {
@@ -158,9 +144,29 @@ button:hover {
     font-size: 28px;
     line-height: 125%;
 }
+.text-1 {
+    top: -610px;
+    right: -210px;
+}
+.text-2 {
+    top: -652px;
+    right: -620px;
+}
+.text-3 {
+    top: -696px;
+    right: -1030px;
+}
 .text-4 {
     top: -699px;
     right: -209px;
+}
+.text-5 {
+    top: -797px;
+    right: -617px;
+}
+.text-6 {
+    top: -896px;
+    right: -1023px;
 }
 .box-item,
 .box-item-1,
@@ -170,4 +176,193 @@ button:hover {
     height: 47px;
     background: #FBF138;
     text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 250%;
+}
+.box-item {
+    top: -526px;
+    right: -429px;
+}
+.box-item-1 {
+    top: -589px;
+    right: -834px;
+}
+.box-item-2 {
+    top: -654px;
+    right: -1242px;
+}
+.text-7 {
+    position: relative;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    top: -580px;
+    right: -182px;
+}
+.text-8 {
+    position: relative;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 125%;
+    top: -580px;
+    top: -705px;
+    right: -1181px;
+}
+.box-item-3 {
+    position: relative;
+    width: 367px;
+    height: 250px;
+    border: 1px solid;
+    border-style: groove;
+}
+.box-item-4 {
+    position: relative;
+    width: 366px;
+    height: 402px;
+    border: 1px solid;
+    border-style: groove;
+    left: 405px;
+    top: -270px;
+}
+.box-item-5 {
+    position: relative;
+    width: 367px;
+    height: 309px;
+    border: 1px solid;
+    border-style: groove;
+    left: 809px;
+    top: -692px;
+}
+.box-item-6 {
+    position: relative;
+    width: 367px;
+    height: 433px;
+    border: 1px solid;
+    border-style: groove;
+    top: -738px;
+}
+.box-item-7 {
+    position: relative;
+    width: 366px;
+    height: 281px;
+    border: 1px solid;
+    border-style: groove;
+    left: 405px;
+    top: -1039px;
+}
+.box-item-8 {
+    position: relative;
+    width: 367px;
+    height: 374px;
+    border: 1px solid;
+    border-style: groove;
+    left: 810px;
+    top: -1433px;
+}
+.section-steps {
+    position: relative;
+    top: -639px;
+    right: -188px;
+}
+.box-item-3:hover {
+    background: rgba(251, 241, 56, 0.5);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.box-item-4:hover {
+    background-color: rgba(251, 241, 56, 0.5);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.box-item-5:hover {
+    background-color: rgba(251, 241, 56, 0.5);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.box-item-6:hover {
+    background-color: rgba(251, 241, 56, 0.5);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.box-item-7:hover {
+    background-color: rgba(251, 241, 56, 0.5);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.box-item-8:hover {
+    background-color: rgba(251, 241, 56, 0.5);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.Photo-section {
+    margin-top: -1300px;
+    cursor: pointer;
+}
+.Photo-4 {
+    position: relative;
+    bottom: 790px;
+    left: 30px;
+}
+.Photo-5 {
+    position: relative;
+    bottom: 660px;
+    left: 380px;
+}
+.Photo-6 {
+    position: relative;
+    bottom: 740px;
+    left: 725px;
+}
+.Photo-7 {
+    position: relative;
+    bottom: 430px;
+    left: -180px;
+}
+.Photo-8 {
+    position: relative;
+    bottom: 350px;
+    left: 150px;
+}
+.Photo-9 {
+    position: relative;
+    bottom: 350px;
+    left: 485px;
+}
+.trening {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    margin-top: -160px;
+    cursor: pointer;
+}
+.text-1-1 {
+    position: absolute;
+    top: 195px;
+    left: 25px;
+}
+.text-2-1 {
+    position: absolute;
+    top: 345px;
+    left: 448px;
+}
+.text-3-1 {
+    position: absolute;
+    top: 253px;
+    left: 843px;
+}
+.text-4-1 {
+    position: absolute;
+    top: 570px;
+    left: 33px;
+}
+.text-5-1 {
+    position: absolute;
+    top: 660px;
+    left: 435px;
+}
+.text-6-1 {
+    position: absolute;
+    top: 660px;
+    left: 840px;
 }
